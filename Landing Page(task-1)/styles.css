@@ -1,0 +1,224 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set overall color scheme */
+body {
+  background-color: #99a7ff; /* Light blue background color */
+  color: #333; /* Default text color */
+  font-size: 18px;
+}
+
+header, footer {
+  background-color: #99a7ff; /* Light blue background color for header and footer */
+  color: #15190a; /* Dark text color for header and footer */
+}
+
+nav ul li a {
+  color: #fff; /* White text color for navigation links */
+  font-size: 18px; /* Increase font size for navigation links */
+  padding: 10px 20px; /* Padding for navigation links */
+  border: 1.5px solid #fff; /* Border for navigation links */
+  background-color: #1b00cc;
+  border-radius: 6px; /* Rounded corners for navigation links */
+  text-decoration: none; /* Remove underline from links */
+  display: inline-block; /* Ensure padding is applied correctly */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+  background-color: #fff; /* White background color on hover */
+  color: #333; /* Dark text color on hover */
+}
+
+/* Header styles */
+header {
+  padding: 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #fff; /* Add a separator line */
+}
+
+.logo img {
+  max-width: 200px; /* Increase the width of the logo */
+  transition: transform 0.3s ease; /* Add transition for smooth zoom effect */
+}
+
+.logo img:hover {
+  transform: scale(1.1); /* Increase the size of the logo on hover */
+}
+
+.class-name {
+  font-size: 30px; /* Font size for class name */
+  text-align: right; /* Align text to the right */
+}
+
+.class-name h1 {
+  margin-bottom: 5px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove margin from last list item */
+}
+
+/* Main styles */
+main {
+  padding: 20px;
+}
+
+/* Hero section styles */
+#hero {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+#hero h2 {
+  margin-bottom: 20px;
+}
+
+#hero p {
+  margin-bottom: 20px;
+}
+
+.enroll-button {
+  background-color: #1b00cc; /* Blue background color for buttons */
+  color: #fff; /* White text color for buttons */
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.enroll-button:hover {
+  background-color: #000099; /* Darker blue background color on hover */
+}
+
+/* About section styles */
+#about {
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+/* Results section styles */
+#results {
+  padding: 20px 0;
+}
+
+#results table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#results th, #results td {
+  border: 1px solid #333; /* Table cell border */
+  padding: 10px;
+  text-align: left;
+}
+
+#results th {
+  background-color: #99a7ff; /* Header background color */
+  color: #15190a; /* Header text color */
+}
+
+/* Career Info section styles */
+#career {
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+/* Teacher Info section styles */
+#teachers {
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+.teacher-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.teacher {
+  text-align: center;
+}
+
+.teacher img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.teacher img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.teacher p {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Gallery section styles */
+#gallery {
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Achievements section styles */
+#achievements {
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+/* Contact section styles */
+#contact {
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px 0;
+}
