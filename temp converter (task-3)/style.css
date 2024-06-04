@@ -1,0 +1,57 @@
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.side-image {
+    max-width: 50%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+input, select, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    color: #5718df;
+}
+
+button {
+    background-color: blue; /* Blue background for the button */
+    color: white; /* White text for the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue; /* Darker blue when hovered */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #5718df;
+}
